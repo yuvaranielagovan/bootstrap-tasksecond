@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap5</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+         <img src="img/cake logo.png" alt="logo"style="width:40px;" class="rounded-pill" class="d-inline-block align-top" >
+         <a href="#" class="navbar-brand">&nbsp;TJ Cake Corner</a>
+         <button
+           class="navbar-toggler"
+           type="button"
+           data-bs-toggle="collapse"
+           data-bs-target="#navmenu">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navmenu">
+           <ul class="navbar-nav ms-auto">
+             <li class="nav-item">
+                 <a href="#Home"  class="nav-link active">Home</a>
+               </li>
+             <li class="nav-item">
+               <a href="#About" class="nav-link">About</a>
+             </li>
+             <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Recipes</a>
+               <ul class="dropdown-menu">
+                 <li><a class="dropdown-item" href="#">Chocolate Cake</a></li>
+                 <li><a class="dropdown-item" href="#">Rainbow Cake</a></li>
+                 <li><a class="dropdown-item" href="#">Brownie</a></li>
+                 <li><a class="dropdown-item" href="#">More..</a></li>
+               </ul>
+             </li>
+             <li class="nav-item">
+               <a href="#Contact" class="nav-link">Contact</a>
+             </li>
+             <li class="nav-item">
+               <button class="btn btn-outline-warning type=button">Login</button>
+               </li>
+           </ul>
+     </nav>
+         <!-- Carousel -->
+         <section class="p-2 bg-dark text-white">
+           <div class="container">
+             <div id="samp" class="carousel slide" data-bs-ride="carousel">
+     
+               <!-- Indicators/dots -->
+               <div class="carousel-indicators">
+                 <button type="button" data-bs-target="#samp" data-bs-slide-to="0" class="active"></button>
+                 <button type="button" data-bs-target="#samp" data-bs-slide-to="1"></button>
+                 <button type="button" data-bs-target="#samp" data-bs-slide-to="2"></button>
+               </div>
+               
+               <!-- The slideshow -->
+               <div class="carousel-inner">
+                 <div class="carousel-item active">
+                   <img src="img/images.jpg" alt="birthday cake" class="img-fluid d-block" height=600px width=100%>
+                   <div class="absolute">
+                     <h1> Enjoy the Flavour
+                       Of Season</h1>
+                    <button class="btn btn-outline-info text-white" type="button">Explore</button>
+                  </div> 
+                 </div>
+     
+                 <div class="carousel-item">
+                   <img src="img/birthday.avif" alt="birthday cake" class="img-fluid d-block" height=600px width=100% >
+                   <div class="absolute1">
+                     <h1>Birthday Cakes<h1><br><h3>Spreading happiness with delightful cakesvin various themes and <br>
+                       delectable flavours.Baked with Love enjoy the burst of flavours in every slice.</h1>
+                  </div>
+                 </div>
+     
+                 <div class="carousel-item">
+                   <img src="img/rainbow-ice-cream.jpg" alt="rainbow cake" class="img-fluid d-block" height=600px width=100%>
+                   <div class="absolute2">
+                     <h1>Hand Made,<br>With An Extra Pinch of Love</h1>
+                   </div>
+                 </div>
+     
+                   <!-- Left and right controls/icons -->
+               <button class="carousel-control-prev" type="button" data-bs-target="#samp" data-bs-slide="prev">
+                 <span class="carousel-control-prev-icon"></span>
+               </button>
+               <button class="carousel-control-next" type="button" data-bs-target="#samp" data-bs-slide="next">
+                 <span class="carousel-control-next-icon"></span>
+               </button>
+               </div>
+               </div>
+              </div>
+              </section>
+     
+         <h2>Pick A Flavours</h2>
+         <section id="About">
+     <div class="container-fluid mt-4">
+         <div class="row">
+           <div class="col-sm-4">
+             <div class="card" style="width:400px">
+               <img class="card-img-top" src="img/brownie.avif" alt="Card image"  height="250px" width:100%>
+               <div class="card-body">
+                 <h4 class="card-title">Brownie</h4>
+                 <p class="card-text">Dark chocolate contains 50-90% cocoa solids, cocoa butter, and sugar, whereas milk chocolate contains anywhere from 10-50% cocoa solids, cocoa butter, milk in some form, and sugar.Chocolate is made from cocoa beans.</p>
+                 <a href="#" class="btn btn-primary">See More</a>
+               </div>
+             </div>
+             </div>&nbsp;
+             
+               <div class="col-sm-4">
+                 <div class="card" style="width:400px">
+                   <img class="card-img-top" src="img/images (2).jpg" alt="Card image" height="250px" style="width:100%">
+                   <div class="card-body">
+                     <h4 class="card-title">Rainbow Cake</h4>
+                     <p class="card-text">Also added flavored gel to make a flavored rainbow cake it (Strawberry, orange, lemon, lime, blueberry, grape). Each layer slightly flavored with the above.
+                     Flour, sugar, egg and fat form the basic components of all cakes
+                     </p>
+                     <a href="#" class="btn btn-primary">See More</a>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="col-md-2 ">
+                   <h1><code>So Many Flavors</code></h1><br>
+                   <h2>So little Bit mouth watering!!!</h2>
+                 </div>
+             <div class="row">
+                 <div class="col-sm-4 mt-3">
+                   <div class="card" style="width:400px">
+                     <img class="card-img-top" src="img/images (1).jpg" alt="Card image" height="250px" style="width:100%">
+                     <div class="card-body">
+                       <h4 class="card-title">Rainbow Cake</h4>
+                       <p class="card-text">Also added flavored gel to make a flavored rainbow cake it (Strawberry, orange, lemon, lime, blueberry, grape). Each layer slightly flavored with the above.
+                         Flour, sugar, egg and fat form the basic components of all cakes</p>
+                       <a href="#" class="btn btn-primary">See more</a>
+                     </div>
+                   </div>
+                   </div>
+                   <div class="col-sm-4 mt-3">
+                     <div class="card" style="width:400px">
+                       <img class="card-img-top" src="img/freshly.avif" alt="Card image" height="250px" style="width:100%">
+                       <div class="card-body">
+                         <h4 class="card-title">Delicious Choco Cake</h4>
+                         <p class="card-text">Dark chocolate contains 50-90% cocoa solids, cocoa butter, and sugar, whereas milk chocolate contains anywhere from 10-50% cocoa solids, cocoa butter, milk in some form, and sugar.Chocolate is made from cocoa beans.</p>
+                         <a href="#" class="btn btn-primary">See More</a>
+                       </div>
+                     </div>
+                   </section>
+                   <section id="Contact">
+                    <div class="container-fluid bg-dark text-white">
+                     <div class="row">
+                     <div class="col-sm-3 p-5 bg-dark">
+                      <h5 class="text-left">Company</h5>
+                      <p>More about us<br>
+                       Policy<br>
+                       Contact us<br>
+                       Careers<br>
+                       Locations<br>
+                       Privacy Policy<br>
+                       Terms & Conditions
+                      </p></div>
+     
+                     <div class="col-sm-3 p-5 bg-dark">
+                      <h5 class="text-center">Contact</h5>
+                      <p>123 street,Trichy<br>
+                       2314765789<br>
+                       tjcakes_corner@domain.com<br>
+                   
+                      </p>
+                         
+                       </div>
+                       <div class="col-sm-3 p-5 bg-dark">
+                         <h5>Openings</h5>
+                         <p>Monday-sunday<br>
+                          9AM- 10PM<br>
+                         Sunday only<br>
+                         10PM Open</p>
+                       </div>
+                     </div>
+                   </section>
+                   </div>
+     </div></div>
+    
+</body>
+</html>
